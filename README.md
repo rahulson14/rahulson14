@@ -1,4 +1,6 @@
-# 💫 About Me:
+<img src="rahulgit.png" alt="banner" width="100%" height="auto" />
+
+# Hello World!!, I'm Rahul Son Boro👋,
 🎓 B.Tech 6th Semester student in Computer Science and Engineering at Central Institute of Technology, Kokrajhar.<br><br>💻 Passionate about Web Development and Machine Learning.<br><br>🌐 Experienced in building responsive and dynamic websites using modern web technologies.<br><br>🤖 Worked on machine learning projects involving data analysis, model building, and real-time applications.<br><br>🚀 Always eager to learn new technologies and take on challenging projects.
 
 
@@ -22,3 +24,9 @@
 [![](https://visitcount.itsvg.in/api?id=rahulson14&icon=5&color=4)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/rahulson14/rahulson14/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/rahulson14/rahulson14/output/github-snake.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/rahulson14/rahulson14/output/github-snake.svg" />
+</picture>
