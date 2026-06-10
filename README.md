@@ -1,4 +1,3 @@
-<img src="rahulgit.png" alt="banner" width="100%" height="auto" />
 
 # Hello World!!, I'm Rahul Son Boro👋,
 🎓 B.Tech in Computer Science and Engineering from Central Institute of Technology, Kokrajhar.<br><br>💻 Passionate about Web Development and Machine Learning.<br><br>🌐 Experienced in building responsive and dynamic websites using modern web technologies.<br><br>🤖 Worked on machine learning projects involving data analysis, model building, and real-time applications.<br><br>🚀 Always eager to learn new technologies and take on challenging projects.
