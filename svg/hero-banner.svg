@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="1200" height="320">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b14"/>
+      <stop offset="50%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#070b14"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#64ffda">
+        <animate attributeName="stop-color" values="#64ffda;#a78bfa;#38bdf8;#64ffda" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#a78bfa">
+        <animate attributeName="stop-color" values="#a78bfa;#38bdf8;#64ffda;#a78bfa" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <linearGradient id="line-fade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#64ffda" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#64ffda" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="orb-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#64ffda" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#64ffda" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="plane-body" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5d68f9"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="glow-lg"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="320" fill="url(#bg)"/>
+
+  <!-- Subtle dot grid — left -->
+  <g opacity="0.07">
+    <circle cx="60" cy="40" r="1" fill="#64ffda"/><circle cx="120" cy="40" r="1" fill="#64ffda"/><circle cx="180" cy="40" r="1" fill="#64ffda"/>
+    <circle cx="60" cy="90" r="1" fill="#64ffda"/><circle cx="120" cy="90" r="1" fill="#64ffda"/><circle cx="180" cy="90" r="1" fill="#64ffda"/>
+    <circle cx="60" cy="140" r="1" fill="#64ffda"/><circle cx="120" cy="140" r="1" fill="#64ffda"/><circle cx="180" cy="140" r="1" fill="#64ffda"/>
+    <circle cx="60" cy="190" r="1" fill="#64ffda"/><circle cx="120" cy="190" r="1" fill="#64ffda"/><circle cx="180" cy="190" r="1" fill="#64ffda"/>
+    <circle cx="60" cy="240" r="1" fill="#64ffda"/><circle cx="120" cy="240" r="1" fill="#64ffda"/><circle cx="180" cy="240" r="1" fill="#64ffda"/>
+    <circle cx="60" cy="290" r="1" fill="#64ffda"/><circle cx="120" cy="290" r="1" fill="#64ffda"/><circle cx="180" cy="290" r="1" fill="#64ffda"/>
+  </g>
+  <!-- Subtle dot grid — right -->
+  <g opacity="0.07">
+    <circle cx="1020" cy="40" r="1" fill="#a78bfa"/><circle cx="1080" cy="40" r="1" fill="#a78bfa"/><circle cx="1140" cy="40" r="1" fill="#a78bfa"/>
+    <circle cx="1020" cy="90" r="1" fill="#a78bfa"/><circle cx="1080" cy="90" r="1" fill="#a78bfa"/><circle cx="1140" cy="90" r="1" fill="#a78bfa"/>
+    <circle cx="1020" cy="140" r="1" fill="#a78bfa"/><circle cx="1080" cy="140" r="1" fill="#a78bfa"/><circle cx="1140" cy="140" r="1" fill="#a78bfa"/>
+    <circle cx="1020" cy="190" r="1" fill="#a78bfa"/><circle cx="1080" cy="190" r="1" fill="#a78bfa"/><circle cx="1140" cy="190" r="1" fill="#a78bfa"/>
+    <circle cx="1020" cy="240" r="1" fill="#a78bfa"/><circle cx="1080" cy="240" r="1" fill="#a78bfa"/><circle cx="1140" cy="240" r="1" fill="#a78bfa"/>
+    <circle cx="1020" cy="290" r="1" fill="#a78bfa"/><circle cx="1080" cy="290" r="1" fill="#a78bfa"/><circle cx="1140" cy="290" r="1" fill="#a78bfa"/>
+  </g>
+
+  <!-- Center orb glow — gives depth behind the text -->
+  <circle cx="600" cy="150" r="200" fill="url(#orb-glow)"/>
+
+  <!-- Orbital ring — subtle ellipse around the center area -->
+  <ellipse cx="600" cy="155" rx="260" ry="85" fill="none" stroke="#64ffda" stroke-width="0.5" opacity="0.1" stroke-dasharray="8 12">
+    <animateTransform attributeName="transform" type="rotate" values="0 600 155;360 600 155" dur="60s" repeatCount="indefinite"/>
+  </ellipse>
+  <ellipse cx="600" cy="155" rx="300" ry="100" fill="none" stroke="#a78bfa" stroke-width="0.4" opacity="0.06" stroke-dasharray="4 16">
+    <animateTransform attributeName="transform" type="rotate" values="360 600 155;0 600 155" dur="80s" repeatCount="indefinite"/>
+  </ellipse>
+
+  <!-- Code bracket — left -->
+  <text x="250" y="185" font-family="monospace" font-size="100" fill="#64ffda" opacity="0.08">&lt;/&gt;</text>
+
+  <!-- Code bracket — right -->
+  <text x="880" y="185" font-family="monospace" font-size="100" fill="#a78bfa" opacity="0.08">{;}</text>
+
+  <!-- Sparkle star 1 — top-left (properly nested transforms) -->
+  <g opacity="0.5" filter="url(#glow)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="100,65;100,55;100,65" dur="4s" repeatCount="indefinite"/>
+      <g transform="scale(0.16)">
+        <path fill="#64ffda" d="M-6.69,-85.362C-4.604,-91.546,4.141,-91.546,6.227,-85.362L22.991,-35.658C24.148,-32.227,26.622,-29.398,29.868,-27.793L73.74,-6.11C78.802,-3.609,78.802,3.609,73.74,6.111L29.868,27.794C26.622,29.398,24.148,32.227,22.991,35.658L6.227,85.362C4.141,91.546,-4.604,91.546,-6.69,85.362L-23.454,35.658C-24.611,32.227,-27.085,29.398,-30.331,27.794L-74.204,6.111C-79.265,3.609,-79.265,-3.609,-74.204,-6.11L-30.331,-27.793C-27.085,-29.398,-24.611,-32.227,-23.454,-35.658Z"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Sparkle star 2 — top-right -->
+  <g opacity="0.35" filter="url(#glow)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="1090,50;1090,40;1090,50" dur="5s" repeatCount="indefinite"/>
+      <g transform="scale(0.12)">
+        <path fill="#a78bfa" d="M-6.69,-85.362C-4.604,-91.546,4.141,-91.546,6.227,-85.362L22.991,-35.658C24.148,-32.227,26.622,-29.398,29.868,-27.793L73.74,-6.11C78.802,-3.609,78.802,3.609,73.74,6.111L29.868,27.794C26.622,29.398,24.148,32.227,22.991,35.658L6.227,85.362C4.141,91.546,-4.604,91.546,-6.69,85.362L-23.454,35.658C-24.611,32.227,-27.085,29.398,-30.331,27.794L-74.204,6.111C-79.265,3.609,-79.265,-3.609,-74.204,-6.11L-30.331,-27.793C-27.085,-29.398,-24.611,-32.227,-23.454,-35.658Z"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Sparkle star 3 — bottom-right -->
+  <g opacity="0.25">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="1040,258;1040,248;1040,258" dur="3.5s" repeatCount="indefinite"/>
+      <g transform="scale(0.08)">
+        <path fill="#38bdf8" d="M-6.69,-85.362C-4.604,-91.546,4.141,-91.546,6.227,-85.362L22.991,-35.658C24.148,-32.227,26.622,-29.398,29.868,-27.793L73.74,-6.11C78.802,-3.609,78.802,3.609,73.74,6.111L29.868,27.794C26.622,29.398,24.148,32.227,22.991,35.658L6.227,85.362C4.141,91.546,-4.604,91.546,-6.69,85.362L-23.454,35.658C-24.611,32.227,-27.085,29.398,-30.331,27.794L-74.204,6.111C-79.265,3.609,-79.265,-3.609,-74.204,-6.11L-30.331,-27.793C-27.085,-29.398,-24.611,-32.227,-23.454,-35.658Z"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Sparkle star 4 — left mid -->
+  <g opacity="0.2">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="155,240;155,232;155,240" dur="3s" repeatCount="indefinite"/>
+      <g transform="scale(0.06)">
+        <path fill="#f472b6" d="M-6.69,-85.362C-4.604,-91.546,4.141,-91.546,6.227,-85.362L22.991,-35.658C24.148,-32.227,26.622,-29.398,29.868,-27.793L73.74,-6.11C78.802,-3.609,78.802,3.609,73.74,6.111L29.868,27.794C26.622,29.398,24.148,32.227,22.991,35.658L6.227,85.362C4.141,91.546,-4.604,91.546,-6.69,85.362L-23.454,35.658C-24.611,32.227,-27.085,29.398,-30.331,27.794L-74.204,6.111C-79.265,3.609,-79.265,-3.609,-74.204,-6.11L-30.331,-27.793C-27.085,-29.398,-24.611,-32.227,-23.454,-35.658Z"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Paperplane — top-right, tilted, flying -->
+  <g opacity="0.4" filter="url(#glow)">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="970,80;980,72;970,80" dur="3.5s" repeatCount="indefinite"/>
+      <g transform="scale(0.3) rotate(-20)">
+        <path fill="url(#plane-body)" d="M-133.812,-42.171L133.812,-75.141L5.765,75.141L-61.708,18.402L124.227,-71.307L-87.011,-1.534Z"/>
+        <path fill="#474bd8" d="M-98.335,64.79L-105.619,4.984L105.619,-64.79L-80.316,24.919Z"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Paperplane — bottom-left, small -->
+  <g opacity="0.15">
+    <g>
+      <animateTransform attributeName="transform" type="translate" values="200,270;208,265;200,270" dur="5s" repeatCount="indefinite"/>
+      <g transform="scale(0.12) rotate(25)">
+        <path fill="#38bdf8" d="M-133.812,-42.171L133.812,-75.141L5.765,75.141L-61.708,18.402L124.227,-71.307L-87.011,-1.534Z"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Accent line under name -->
+  <rect x="370" y="188" width="460" height="2" rx="1" fill="url(#line-fade)">
+    <animate attributeName="opacity" values="0.4;0.8;0.4" dur="4s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- NAME — using web-safe font stack -->
+  <text x="600" y="175" text-anchor="middle" font-family="'Trebuchet MS', 'Gill Sans', 'Helvetica Neue', Arial, sans-serif" font-size="58" font-weight="bold" fill="#f0f6fc" letter-spacing="5">RAHUL SON BORO</text>
+
+  <!-- Subtitle role -->
+  <text x="600" y="225" text-anchor="middle" font-family="'Trebuchet MS', 'Gill Sans', 'Helvetica Neue', Arial, sans-serif" font-size="15" fill="url(#accent)" letter-spacing="6" font-weight="normal">SOFTWARE ENGINEER  ·  AI / ML  ·  FULL-STACK</text>
+
+  <!-- Tagline -->
+  <text x="600" y="262" text-anchor="middle" font-family="'Trebuchet MS', 'Gill Sans', 'Helvetica Neue', Arial, sans-serif" font-size="12" fill="#8b949e" letter-spacing="1.5">Building intelligent systems — from elegant interfaces to autonomous AI agents</text>
+
+  <!-- Bottom pulse dots -->
+  <g opacity="0.5">
+    <circle cx="572" cy="290" r="2.5" fill="#64ffda"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.5s" repeatCount="indefinite"/></circle>
+    <circle cx="592" cy="290" r="2.5" fill="#a78bfa"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.5s" begin="0.5s" repeatCount="indefinite"/></circle>
+    <circle cx="612" cy="290" r="2.5" fill="#38bdf8"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.5s" begin="1s" repeatCount="indefinite"/></circle>
+    <circle cx="632" cy="290" r="2.5" fill="#f472b6"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.5s" begin="1.5s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
