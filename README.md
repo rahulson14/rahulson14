@@ -4,21 +4,20 @@
 
 <br/>
 
-<a href="https://portfolio-git-main-rahul-son-boros-projects.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=googlechrome&logoColor=00F0FF" alt="Portfolio" /></a>
-<a href="https://portfolio-git-main-rahul-son-boros-projects.vercel.app/blogs"><img src="https://img.shields.io/badge/Blog-0D1117?style=for-the-badge&logo=devdotto&logoColor=00E676" alt="Blog" /></a>
-<a href="https://drive.google.com/file/d/1zF4vlOgOxV3-zRSNqDvSoXBnhrzCX8mZ/view?usp=drive_link"><img src="https://img.shields.io/badge/Resume-0D1117?style=for-the-badge&logo=adobeacrobatreader&logoColor=c084fc" alt="Resume" /></a>
-<a href="https://www.linkedin.com/in/rahulsonboro/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bh2Ot%2BqntQNS3h6XS5VWhEg%3D%3D"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0077B5" alt="LinkedIn" /></a>
-<a href="https://x.com/rahulsonboro"><img src="https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=X&logoColor=white" alt="X" /></a>
+<a href="https://portfolio-git-main-rahul-son-boros-projects.vercel.app/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=googlechrome&logoColor=00F0FF" alt="Portfolio" /></a>
+<a href="https://rahulson14.github.io/Paper-site/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Creative_Hub-0D1117?style=for-the-badge&logo=notion&logoColor=white" alt="Creative Hub" /></a>
+<a href="https://portfolio-git-main-rahul-son-boros-projects.vercel.app/blogs" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Blog-0D1117?style=for-the-badge&logo=devdotto&logoColor=00E676" alt="Blog" /></a>
+<a href="https://drive.google.com/file/d/1zF4vlOgOxV3-zRSNqDvSoXBnhrzCX8mZ/view?usp=drive_link" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Resume-0D1117?style=for-the-badge&logo=adobeacrobatreader&logoColor=c084fc" alt="Resume" /></a>
+<a href="https://www.linkedin.com/in/rahulsonboro/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bh2Ot%2BqntQNS3h6XS5VWhEg%3D%3D" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0077B5" alt="LinkedIn" /></a>
+<a href="https://x.com/rahulsonboro" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=X&logoColor=white" alt="X" /></a>
 
 </div>
 
 ---
 
-<table border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="62%" valign="top">
-
 ## About Me
+
+<img align="right" width="260" src="svg/Developer 01 - Whoooa!.svg" alt="Developer" />
 
 I am a Computer Science and Engineering graduate from **CIT Kokrajhar**, specializing at the intersection of **Full-Stack Web Architecture** and **Applied Artificial Intelligence**.
 
@@ -28,14 +27,9 @@ I focus on building intelligent, end-to-end systems—bridging clean user interf
 - 🤖 **AI & ML Frontier:** Architecting production-grade **RAG pipelines** and autonomous workflows with **LangChain**, **LangGraph**, and **PyTorch**.
 - 🌱 **Current Exploration:** Cloud-native scaling (**AWS / Docker**), MLOps automation, and distributed backend architectures.
 - 💼 **Career Status:** Actively seeking **Full-Time Software Engineering** and **AI/ML Engineer** roles globally.
-- 📫 **Direct Contact:** Reach out anytime at **[rahulsonboro@gmail.com](mailto:rahulsonboro@gmail.com)**.
+- 📫 **Direct Contact:** Reach out anytime at **<a href="mailto:rahulsonboro@gmail.com" target="_blank" rel="noopener noreferrer">rahulsonboro@gmail.com</a>**.
 
-</td>
-    <td width="38%" align="center" valign="middle">
-      <img src="svg/Developer 01 - Whoooa!.svg" width="260" alt="Developer" />
-    </td>
-  </tr>
-</table>
+<br clear="both"/>
 
 ---
 
@@ -78,17 +72,12 @@ I focus on building intelligent, end-to-end systems—bridging clean user interf
 
 ---
 
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
-  <tr>
-    <td width="20%" align="center" valign="middle">
-      <img src="svg/Earth globe rotating with Seamless loop animation.svg" width="55" alt="Globe" />
-    </td>
-    <td width="60%" align="center" valign="middle">
-      <b>🚀 Open for Software Engineering & AI/ML Opportunities Worldwide.</b><br/>
-      <small>Engineered with precision for simplicity, performance, and scalability.</small>
-    </td>
-    <td width="20%" align="center" valign="middle">
-      <img src="svg/Sparkles Loop Loader ai.svg" width="45" alt="Sparkles" />
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="svg/Earth globe rotating with Seamless loop animation.svg" width="45" alt="Globe" />
+  &nbsp;&nbsp;
+  <b>🚀 Open for Software Engineering & AI/ML Opportunities Worldwide.</b>
+  &nbsp;&nbsp;
+  <img src="svg/Sparkles Loop Loader ai.svg" width="38" alt="Sparkles" />
+  <br/>
+  <small>Engineered with precision for simplicity, performance, and scalability.</small>
+</div>
