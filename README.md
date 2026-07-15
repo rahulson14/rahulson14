@@ -7,7 +7,7 @@
 <a href="https://portfolio-git-main-rahul-son-boros-projects.vercel.app/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Portfolio-0D1117?style=for-the-badge&logo=googlechrome&logoColor=00F0FF" alt="Portfolio" /></a>
 <a href="https://rahulson14.github.io/Paper-site/" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Creative_Hub-0D1117?style=for-the-badge&logo=notion&logoColor=white" alt="Creative Hub" /></a>
 <a href="https://portfolio-git-main-rahul-son-boros-projects.vercel.app/blogs" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Blog-0D1117?style=for-the-badge&logo=devdotto&logoColor=00E676" alt="Blog" /></a>
-<a href="https://drive.google.com/file/d/1zF4vlOgOxV3-zRSNqDvSoXBnhrzCX8mZ/view?usp=drive_link" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Resume-0D1117?style=for-the-badge&logo=adobeacrobatreader&logoColor=c084fc" alt="Resume" /></a>
+<a href="https://drive.google.com/file/d/1UpXQ2QULyUkVI2rNTasfCNuPPGCg_621/view?usp=sharing" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Resume-0D1117?style=for-the-badge&logo=adobeacrobatreader&logoColor=c084fc" alt="Resume" /></a>
 <a href="https://www.linkedin.com/in/rahulsonboro/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bh2Ot%2BqntQNS3h6XS5VWhEg%3D%3D" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/LinkedIn-0D1117?style=for-the-badge&logo=linkedin&logoColor=0077B5" alt="LinkedIn" /></a>
 <a href="https://x.com/rahulsonboro" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/X-0D1117?style=for-the-badge&logo=X&logoColor=white" alt="X" /></a>
 
